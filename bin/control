@@ -275,7 +275,7 @@ function deploy() {
     cp teiid-dashboard-builder.war $DV_DEPLOYMENTS_DIR
     cp datavirt-commons-idp-eap61-1.0.0.war $DV_DEPLOYMENTS_DIR
     cp datavirt-ui-eap61.war $DV_DEPLOYMENTS_DIR
-    cp teiid-authoring-0.1.0-SNAPSHOT-jboss-as7.0.war $DV_DEPLOYMENTS_DIR
+    cp PREVIEW-ServiceMgr-DV6-31Oct2014.war $DV_DEPLOYMENTS_DIR
     cp ModeShape.vdb $DV_DEPLOYMENTS_DIR
     cp ModeShape.vdb.dodeploy $DV_DEPLOYMENTS_DIR
   popd
